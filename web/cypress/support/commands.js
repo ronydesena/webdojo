@@ -29,7 +29,6 @@ import './actions/consultancy.actions'
 import {getTodayFormatted} from "../support/utils"
 
 Cypress.Commands.add('start', () => {
-    cy.viewport(1920, 1080)
     cy.visit('/')
 })
 
